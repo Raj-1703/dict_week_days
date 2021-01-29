@@ -8,7 +8,7 @@ my_dict = {}
 # input dictionary
 n = int(input('number of days:' ))
 for i in range(n):
-    data = input('Enter date (in YYYY-MM-DD format) & it\'s corresponding value separated by ":" ')
+    data = input('Enter date (in YYYY-MM-DD format) & it\'s corresponding value separated by ":" (for example: 2020-05-20:5)')
     temp = data.split(':')
     my_dict[temp[0]] = int(temp[1])
 
